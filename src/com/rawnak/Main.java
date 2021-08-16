@@ -12,7 +12,7 @@ public class Main {
 //        MiniZoo miniZoo = new MiniZoo(animals);
         MiniZoo miniZoo = new MiniZoo();
 
-        for (int i=0; i<3; i++){
+        for (int i = 0; i < 3; i++) {
             miniZoo.printDietsOfAllAnimals(animals[i]);
         }
     }
